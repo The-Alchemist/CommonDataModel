@@ -416,7 +416,7 @@ CREATE TABLE @cdmDatabaseSchema.CDM_SOURCE (
 --HINT DISTRIBUTE ON RANDOM
 CREATE TABLE @cdmDatabaseSchema.CONCEPT (
 			concept_id integer NOT NULL,
-			concept_name varchar(255) NOT NULL,
+			concept_name text NOT NULL,
 			domain_id varchar(20) NOT NULL,
 			vocabulary_id varchar(20) NOT NULL,
 			concept_class_id varchar(20) NOT NULL,
